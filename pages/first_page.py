@@ -29,6 +29,7 @@ class PlaginInStaticPage(PluginshopPage):
         self.quick_click(locators.PLUGIN_MONITORING)
         self.ultra_long_click(locators.INSTALL_ALL)
         self.send_keys('{Esc}')
+        
     def check_mer(self):
         self.quick_click(locators.STATIC)
         self.quick_click(locators.MER)
